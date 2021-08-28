@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="RU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Calculator</title>
+</head>
+<body class="body">
+<section class="container">
+  <div class="calculator">
+    <form class="calculator__form" name="calculator-form">
+      <label>
+        <input type="text" class="calculator__input" placeholder="0" name="userInput">
+      </label>
+    </form>
+    <div class="calculator__display">
+      <button class="button" oneclick="press(1)">1</button>
+      <button class="button" oneclicl="press(2)">2</button>
+      <button class="button" oneclicl="press(3)">3</button>
+      <button class="button button__plus" oneclick="press('+')">&#43;</button>
+      <button class="button" oneclick="press(4)">4</button>
+      <button class="button" oneclick="press(5)">5</button>
+      <button class="button" oneclick="press(6)">6</button>
+      <button class="button button__minus" oneclick="press('-')">&#45;</button>
+      <button class="button" oneclick="press(7)">7</button>
+      <button class="button" oneclick="press(8)">8</button>
+      <button class="button" oneclick="press(9)">9</button>
+      <button class="button button__multiply" oneclick="press('*')">&#42;</button>
+      <button class="button" oneclick="press('.')">&#46;</button>
+      <button class="button" oneclick="press(0)">0</button>
+      <button class="button" oneclick="erase()">&#67;</button>
+      <button class="button button__divide" oneclick="press('/')">&#47;</button>
+      <button class="button button__equals" oneclick="equal()">&#61;</button>
+    </div>
+  </div>
+</section>
+<script src="./pages/index.js"></script>
+</body>
+</html>

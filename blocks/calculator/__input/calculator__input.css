@@ -1,0 +1,11 @@
+.calculator__input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 40px 5px;
+  background: whitesmoke;
+  text-align: right;
+  direction: ltr;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+}

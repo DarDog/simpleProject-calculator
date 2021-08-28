@@ -1,0 +1,17 @@
+.button {
+  width: 100%;
+  height: 45px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  background: whitesmoke;
+}
+
+button:hover {
+  background-color: rgba(128, 128, 128, .1);
+}
+
+button:hover:last-of-type {
+
+}
